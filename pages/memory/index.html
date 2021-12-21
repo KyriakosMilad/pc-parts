@@ -11,48 +11,97 @@
     <title>PC Parts - Memory</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+
     <!-- fontawsesome core -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     <!-- stylesheet -->
-    <link href="../assets/css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/page.css">
 </head>
 
 <body>
-    <div class="container mt-5">
-      <div class="text-center pt-5">
-            <h1>Memory</h1>
 
-            <div class="carousel" data-carousel>
-                <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
-                <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
-                <ul data-slides>
+<!-- Container -->
+<div class="container">
+    <!-- Header -->
+    <header id="header">
+        <h1>
+            <a href="../../index.html">
+                PC Parts
+            </a>
+        </h1>
+    </header>
+
+    <!-- Main -->
+    <section id="main" class="text-center p-5">
+        <h2 class="title mb-4">Memory</h2>
+
+        <!-- Carousel -->
+        <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+            <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+            <ul data-slides>
                 <li class="slide" data-active>
-                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="gpu #01">
+                    <img src="images/memory01.jpg"
+                         alt="memory #01">
                 </li>
                 <li class="slide">
-                    <img src="https://images.unsplash.com/photo-1555617981-dac3880eac6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="gpu #02">
+                    <img src="images/memory02.jpg"
+                         alt="memory #02">
                 </li>
                 <li class="slide">
-                    <img src="https://images.unsplash.com/photo-1555680202-c86f0e12f086?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="gpu #03">
+                    <img src="images/memory03.jpg"
+                         alt="memory #03">
                 </li>
-                </ul>
-            </div>
-            
-            <p class="description py-4">
-                Choose graphics processing units (GPU) with central processing units (CPU) that handle multiple needs. Effective units can handle intensive gaming sessions, CAD, graphic designing and video editing, and maximize your computer's performance. Consider the Thermal Design Power (TDP) as an optimal choice for your system, as it indicates how much power your graphics card will need, and how much heat it produces. There are models available with different connectors that work with a variety of monitors to help set up multiple screens. Most models feature Thunderbolt® and USB or USB-C™ connections, providing plug-and-play capabilities for a quick setup.
-            </p>
-            
+            </ul>
         </div>
-    </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- Description -->
+        <div class="description">
+            <p>
+                In computing, memory is a device or system that is used to store information for immediate use in a
+                computer or related computer hardware and digital electronic devices. The term memory is often
+                synonymous with the term primary storage or main memory. An archaic synonym for memory is store.
+            </p>
+            <p>
+                Computer memory operates at a high speed compared to storage that is slower but offers higher
+                capacities. If needed, contents of the computer memory can be transferred to storage; a common way of
+                doing this is through a memory management technique called virtual memory.
+            </p>
+            <p>
+                Modern memory is implemented as semiconductor memory, where data is stored within memory cells
+                built from MOS transistors and other components on an integrated circuit. There are two main kinds of
+                semiconductor memory, volatile and non-volatile. Examples of non-volatile memory are flash memory and
+                ROM, PROM, EPROM and EEPROM memory. Examples of volatile memory are dynamic random-access memory (DRAM)
+                used for primary storage, and static random-access memory (SRAM) used for CPU cache.
+            </p>
+            <p>
+                Most semiconductor memory is organized into memory cells each storing one bit (0 or 1). Flash memory
+                organization includes both one bit per memory cell and multi-level cell capable of storing multiple bits
+                per cell. The memory cells are grouped into words of fixed word length, for example, 1, 2, 4, 8, 16, 32,
+                64 or 128 bits. Each word can be accessed by a binary address of N bits, making it possible to store 2N
+                words in the memory.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>&copy; MADE WITH <i class="fas fa-heart"></i> BY HENAWY</p>
+    </footer>
+</div>
+
+<!-- Placed at the end of the document so the pages load faster
+================================================== -->
+<!-- Bootstrap core JavaScript -->
+<script src="../../assets/js/bootstrap.bundle.min.js"></script>
+
+<!-- Page custom JavaScript -->
+<script src="../../assets/js/page.js"></script>
 
 </body>
 
